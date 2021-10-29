@@ -26,7 +26,6 @@ public class ListaEncadedaSimples {
 	 		tamanho -= 1;
 		}
 	
-	// *** Método Remove ***
 	public void remove(int posicao) {
 		this.pegaNo(posicao).setElemento(null);
 	}	
