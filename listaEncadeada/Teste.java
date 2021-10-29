@@ -41,7 +41,7 @@ public class Teste {
 		
 		
 		
-			/* Tratamento de excessões ainda em desenvolvimento 
+			/* Tratamento de exceções ainda em desenvolvimento 
 			(Pode apagar caso queira, não esqueça de apagar o "try" no começo do código) */
 		} catch (NullPointerException n) {
 			System.err.println("Não pode haver campos nulos!");
