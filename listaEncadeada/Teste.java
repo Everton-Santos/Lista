@@ -12,6 +12,17 @@ public class Teste {
 		System.out.println("===============   1");
 		System.out.println(lista.toString());
 		
+		/* Verifica se contém o elemento */
+		lista.contem("João");
+		
+		/* Remove o último elemento */
+		lista.removeCauda();
+		System.out.println(lista.toString());
+		
+		/* remove o elemento escolhido */
+		lista.remove(2);
+		System.out.println(lista.toString());
+		
 //		lista.adicionaPosicao(3, new No("Vanessa"));
 //		System.out.println("===============   2");
 //		System.out.println(lista.toString());

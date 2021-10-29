@@ -4,6 +4,33 @@ public class ListaEncadedaSimples {
 	No cabeca = null;
 	Integer tamanho = 0;
 	No cauda = null;
+	
+	
+
+	// *** Método Contem ***
+	public boolean contem(String elemento) {
+		for(int i = 0; i < tamanho; i++) {
+			if(elemento == pegaElemento(i)) {
+				System.out.println("Existe o elemento: " + pegaElemento(i));
+			}
+		}
+		return true;
+	}
+	
+	// *** Método Remover Cauda ***
+	public void removeCauda() {
+			if (!this.posicaoOcupada(0)) {
+				throw new IllegalArgumentException("Posição não existe");
+				}
+			cauda = cauda.getProximo();
+	 		tamanho -= 1;
+		}
+	
+	// *** Método Remove ***
+	public void remove(int posicao) {
+		this.pegaNo(posicao).setElemento(null);
+	}	
+	
 
 
 	public void adicionaPrimeiroElemento(No no) {
