@@ -43,7 +43,7 @@ public class Teste {
 		
 			
 		} catch (NullPointerException n) {
-			System.err.println("Os campos não podem ser Nulos!");
+			System.err.println("Não pode haver campos nulos!");
 			n.printStackTrace();
 		} catch (Exception e) {
 			e.printStackTrace();
